@@ -1,0 +1,119 @@
+.divNav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0.65%;
+  background-color: rgb(153, 151, 151);
+  height: 100px;
+}
+
+.diva{
+  flex: 1;
+  justify-content: center;
+  align-items:center;
+  font-weight: 500;
+  font-size: 50px;
+}
+.aNav{
+  margin: 3%;
+}
+.aNav{
+  text-decoration: none;
+  color: greenyellow;
+  font-family:'Times New Roman', Times, serif;
+  transition: all 0.3s;
+
+}
+
+.logo{
+  flex: 0 0 auto;
+  gap: 50px;
+}
+
+.logo:hover{
+  background-image: url("./assessts/logo1.png");
+}
+
+.aNav:hover{
+  color: yellow;
+}
+
+.formdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #b9b7b7;
+  height: 52.35rem;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+
+  padding: 30px;
+  gap: 15px;
+  background-color: white;
+}
+
+input{
+  width: 200px;
+  border: none;
+  border-bottom: 1.5px solid grey;
+}
+
+.buttonForm{
+  background-color: white;
+  font-weight: bold;
+  font-size: large;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+.book-container {
+  display: flex; /* display movies in a row */
+  flex-wrap: wrap; /* allow movies to wrap to next line if needed */
+}
+
+.book-rectangle {
+  width: 200px; /* set width of each movie rectangle */
+  height: 450px; /* set height of each movie rectangle */
+  margin: 10px; /* add some spacing between each movie rectangle */
+  border: 1px solid #ccc; /* add a border around each movie rectangle */
+}
+
+.add-book-rectangle {
+  width: 200px; /* set width of each movie rectangle */
+  height: 450px; /* set height of each movie rectangle */
+  margin: 10px; /* add some spacing between each movie rectangle */
+  border: 1px solid #ccc; /* add a border around each movie rectangle */ 
+}
+
+.img1{
+  height: 250px;
+  width: 200px;
+}
+.img0{
+  display: none;
+}
+
+.img01{
+  width: 70px;
+}
+
+.upload-img-input{
+  display: none; 
+}
+
+.upload-img{
+  width: 100px;
+}
