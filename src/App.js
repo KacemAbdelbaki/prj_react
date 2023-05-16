@@ -1,20 +1,16 @@
-import './App.css';
+import "./App.css";
 import Nav from "./components/NavBarLivre";
-import DesLivre from "./components/DesLivre";
-import Extract from "./components/Extract";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  
   return (
     <div>
-      <div>
-        <center>
-          <Nav/>
-          <DesLivre/>
-        </center>
-      </div>
+      <center>
+        <Nav />
+        <Outlet />
+      </center>
     </div>
   );
 }
-      
+
 export default App;

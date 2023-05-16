@@ -22,7 +22,6 @@
   color: greenyellow;
   font-family:'Times New Roman', Times, serif;
   transition: all 0.3s;
-
 }
 
 .logo{
@@ -31,37 +30,11 @@
 }
 
 .logo:hover{
-  background-image: url("./assessts/logo1.png");
+  content: url("./assets/logo1.png");
 }
 
 .aNav:hover{
   color: yellow;
-}
-
-.formdiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #b9b7b7;
-  height: 52.35rem;
-}
-
-h2{
-  display: flex;
-  justify-content: center;
-}
-
-form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 300px;
-
-  padding: 30px;
-  gap: 15px;
-  background-color: white;
 }
 
 input{

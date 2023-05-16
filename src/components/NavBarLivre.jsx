@@ -1,17 +1,27 @@
-import logo from "../assessts/logo.png"
+import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
+import React from "react";
 
-const Nav=()=>{
-    return(
-        <div class="divNav">
-            <div>
-                <img class="logo" src={logo} alt=""/>
-            </div>
-            <div class="diva">
-                <a class="aNav" href="">Home</a>
-                <a class="aNav" href="">Livre</a>
-                <a class="aNav" href="">Contact</a>
-            </div>
+const Nav = () => {
+  return (
+    <center>
+      <div className="divNav">
+        <div>
+          <img className="logo" src={logo} alt="" />
         </div>
-    )
-}
+        <div className="diva">
+          <Link className="aNav" to="home">
+            Home
+          </Link>
+          <Link className="aNav" to="livre">
+            Livre
+          </Link>
+          <Link className="aNav" to="contact">
+            Contact
+          </Link>
+        </div>
+      </div>
+    </center>
+  );
+};
 export default Nav;
